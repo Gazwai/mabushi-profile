@@ -42,6 +42,10 @@ div {
   transition: 1s;
 }
 
+.fas.fa-icicles {
+  color: aquamarine;
+}
+
 .img-circle {
   width: 125px;
   height: 125px;
