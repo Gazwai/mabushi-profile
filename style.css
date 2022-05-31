@@ -32,10 +32,15 @@ a:hover {
   margin: 40px auto;
 }
 
+.card-white.gif {
+  background: white;
+}
+
 .card-white.gif:hover {
   background-size: cover;
   background-image: url(./images/the-shining-tricycle.gif);
   transition: 1s;
+  color: darkred;
 }
 
 .fas.fa-icicles {
