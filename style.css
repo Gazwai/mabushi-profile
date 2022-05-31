@@ -7,6 +7,7 @@ body {
   color: rgba(50, 50, 50, 0.8);
   font-size: 16px;
   line-height: 1.6;
+  margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -24,11 +25,6 @@ a:hover {
   color: #297383;
   text-decoration: underline;
   transition: 0.5s;
-}
-
-div {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .container {
