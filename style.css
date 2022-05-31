@@ -1,0 +1,140 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgba(50, 50, 50, 0.8);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins';
+  line-height: 1.6;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #5A9CA4;
+}
+
+a:hover {
+  color: #297383;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+div {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.card-white.gif:hover {
+  background-size: cover;
+  background-image: url(./images/the-shining-tricycle.gif);
+  transition: 1s;
+}
+
+.img-circle {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(139, 0, 0,.5);
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: auto;
+}
+
+.card-white:hover {
+  transition: 1s;
+  background-color: rgb(139, 0, 0);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 48px;
+  color: #5A9CA4;
+  margin: 8px 24px;
+}
+
+.btn-blue {
+  background-color: #5A9CA4;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #297383;
+  color: white;
+  text-decoration: none;
+}
+
+#particles-js canvas
+{
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+#particles-js
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+canvas
+{
+    display:block;
+    position: fixed;
+    z-index: -1;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
