@@ -32,9 +32,6 @@ a:hover {
   margin: 40px auto;
 }
 
-.card-white.gif {
-  background: white;
-}
 
 .card-white.gif:hover {
   background-size: cover;
